@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var content:
+var content;
 var data;
 
 app.use(express.logger());
