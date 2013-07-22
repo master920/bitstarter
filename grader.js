@@ -1,4 +1,4 @@
-#!/usr/vin/env node
+#!/usr/bin/env node
 
 var fs = require('fs');
 var program = require('commander');
