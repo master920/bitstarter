@@ -4,7 +4,7 @@ var fs = require('fs');
 var program = require('commander');
 var cheerio = require('cheerio');
 var HTMLFILE_DEFAULT = "index.html";
-var CHECKSfILE_DEFAULT = "checks.json";
+var CHECKSFILE_DEFAULT = "checks.json";
 
 var assertFileExists = function(inFile) {
     var instr = infile.toString();
